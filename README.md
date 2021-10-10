@@ -10,4 +10,5 @@ No, the slope of the linear model is not considered to be zero, because the p va
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Yes, based on the summary and the plot, we can conclude that there is a significant linear relationship between the independent variables and the dependent variable, it is predict effectively. 
+![1](https://user-images.githubusercontent.com/38533045/136679215-18ff4a17-9b35-49a5-87b3-64bea3c00839.png)
 
