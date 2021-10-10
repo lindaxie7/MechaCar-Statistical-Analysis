@@ -12,3 +12,4 @@ No, the slope of the linear model is not considered to be zero, because the p va
 Yes, based on the summary and the plot, we can conclude that there is a significant linear relationship between the independent variables and the dependent variable, it is predict effectively. 
 ![1](https://user-images.githubusercontent.com/38533045/136679215-18ff4a17-9b35-49a5-87b3-64bea3c00839.png)
 
+![3](https://user-images.githubusercontent.com/38533045/136679249-f5ba4c59-c4c4-488f-bb00-ff7432dc3f15.png)
