@@ -1,6 +1,11 @@
 # MechaCar_Statistical_Analysis
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. We are going to review the production data for insights that may help the manufacturing team.
 
+## The data we are working with:
+
+![Capture1](https://user-images.githubusercontent.com/38533045/137316096-888fb2e8-4823-4dcf-99b9-20a7bfaca4f2.JPG)
+
+
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
