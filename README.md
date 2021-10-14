@@ -33,6 +33,7 @@ No, not all individually manufacturing lots meet this design specification, in t
 - Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
 p-value = 0.06028, which is greater than α 0.05, We do not have enough evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+![Capture1](https://user-images.githubusercontent.com/38533045/137311066-21e72ec3-40a4-478a-87f5-9ff241845c30.JPG)
 
 
 - Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
