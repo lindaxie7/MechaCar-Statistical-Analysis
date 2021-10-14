@@ -26,7 +26,7 @@ No, the current manufacturing data does not meet the specification that the susp
 ![Capture1](https://user-images.githubusercontent.com/38533045/137307289-8004a23b-ae64-4e29-9cf3-155a568f4c4f.JPG)
 
 
-No, not all individually manufacturing lots meet this design specification, in the lot_summary, we can see that the variance for lot1 is 0.9795918, the variance for lot2 is 7.4693878, the variance for lot3 is 170.2861224, so only lot3 meet the specification that the suspension coils must not exceed 100 pounds per square inch.
+No, not all individually manufacturing lots meet this design specification, in the lot_summary, we can see that the variance for lot1 is 0.9795918, the variance for lot2 is 7.4693878, the variance for lot3 is 170.2861224, so only lot3 meets the specification that the suspension coils must not exceed 100 pounds per square inch.
 ![Capture2](https://user-images.githubusercontent.com/38533045/137307450-d1adffa8-e83b-4c53-8faa-e1c3ca92c183.JPG)
 
 ## T-Tests on Suspension Coils
