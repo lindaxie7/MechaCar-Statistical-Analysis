@@ -47,3 +47,5 @@ T-test on lot2, p-value = 0.04168, which is less than α 0.05, We have strong ev
 
 ![Capture3](https://user-images.githubusercontent.com/38533045/137311290-8dfb977f-7316-4b04-aa5f-80ad24cad5e3.JPG)
 
+## Study Design: MechaCar vs Competition
+
