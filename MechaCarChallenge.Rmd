@@ -1,0 +1,100 @@
+---
+title: "MechaCarChallenge"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Dependency
+```{r}
+library(dplyr)
+library(tidyverse)
+```
+### Read CSV file
+```{r}
+mpg <-read_csv("C:/Users/tearo/Desktop/MechaCar_mpg.csv")
+'show_col_types = FALSE'
+```
+### Preview MechaCar_mpg
+```{r}
+head(mpg)
+```
+### Perform linear regression using the lm() function
+```{r}
+lm(mpg ~ mpg + AWD + ground_clearance + spoiler_angle+ vehicle_weight + vehicle_length,data=mpg) #generate multiple linear regression model
+```
+
+### Using the summary() function
+```{r}
+summary(lm(formula = mpg ~ mpg + AWD + ground_clearance + spoiler_angle + 
+    vehicle_weight + vehicle_length, data = mpg)) #generate summary statistics
+```
+
+
+
+### plot
+```{r}
+par(mfrow = c(2, 2)) 
+plot(lm(formula = mpg ~ mpg + AWD + ground_clearance + spoiler_angle + 
+    vehicle_weight + vehicle_length, data = mpg))
+```
+
+### Read CSV file
+```{r}
+coil <-read_csv("C:/Users/tearo/Desktop/Suspension_Coil.csv")
+
+```
+### Preview Suspension_Coil
+```{r}
+head(coil)
+```
+### Calculate the average
+```{r}
+mean_PSI <- summarize(coil, mean(PSI))
+paste("The average PSI is", mean_PSI)
+
+```
+### Calculate the MEDIAN
+```{r}
+median_PSI <- summarize(coil, median(PSI))
+paste("The median PSI is", median_PSI)
+
+```
+### Calculate the Variance
+```{r}
+var_PSI <- summarize(coil, var(PSI))
+paste("The variance of PSI is", var_PSI)
+
+```
+### Calculate the SD
+```{r}
+sd_PSI <- summarize(coil, sd(PSI))
+paste("The standard deviation of PSI is", sd_PSI)
+
+```
+### total_summary 
+```{r}
+total_summary <-  summarize(coil, mean_PSI, median_PSI, var_PSI, sd_PSI)
+
+```
+### lot_summary
+```{r}
+lot_summary <- coil %>% group_by(Manufacturing_Lot) %>%   summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups='keep')
+```
+### T-test
+```{r}
+t.test(coil$PSI,mu=1500)
+
+```
+### Use t.test() function 3 more times with subset() to determine if PSI for each manufacturing lot is statistically different from the pop. mean of 1,500 PSI
+```{r}
+lot1 <- subset(coil, Manufacturing_Lot=="Lot1")
+lot2 <- subset(coil, Manufacturing_Lot=="Lot2")
+lot3 <- subset(coil, Manufacturing_Lot=="Lot3")
+t.test(lot1$PSI,mu=1500)
+t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
+
+```
