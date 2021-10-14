@@ -29,3 +29,19 @@ No, the current manufacturing data does not meet the specification that the susp
 No, not all individually manufacturing lots meet this design specification, in the lot_summary, we can see that the variance for lot1 is 0.9795918, the variance for lot2 is 7.4693878, the variance for lot3 is 170.2861224, so only lot3 meet the specification that the suspension coils must not exceed 100 pounds per square inch.
 ![Capture2](https://user-images.githubusercontent.com/38533045/137307450-d1adffa8-e83b-4c53-8faa-e1c3ca92c183.JPG)
 
+## T-Tests on Suspension Coils
+- Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+p-value = 0.06028, which is greater than α 0.05, We do not have enough evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+
+- Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+T-test on lot1, p-value = 1, which is greater than α 0.05, We do not have enough evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+T-test on lot2, p-value = 0.6072, which is greater than α 0.05, We do not have enough evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+T-test on lot2, p-value = 0.04168, which is less than α 0.05, We have strong evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+
+
