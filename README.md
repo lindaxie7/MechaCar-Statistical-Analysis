@@ -6,7 +6,7 @@ MechaCar_mpg:
 ![Capture1](https://user-images.githubusercontent.com/38533045/137316096-888fb2e8-4823-4dcf-99b9-20a7bfaca4f2.JPG)
 
 Suspension_Coil:
-
+![Capture2](https://user-images.githubusercontent.com/38533045/137316403-2e926067-b66f-428d-9319-1f0d88009458.JPG)
 
 
 ## Linear Regression to Predict MPG
