@@ -48,4 +48,9 @@ T-test on lot3, p-value = 0.04168, which is less than α 0.05, We have strong ev
 ![Capture3](https://user-images.githubusercontent.com/38533045/137311290-8dfb977f-7316-4b04-aa5f-80ad24cad5e3.JPG)
 
 ## Study Design: MechaCar vs Competition
-
+what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
