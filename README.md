@@ -43,6 +43,6 @@ T-test on lot1, p-value = 1, which is greater than α 0.05, We do not have enoug
 T-test on lot2, p-value = 0.6072, which is greater than α 0.05, We do not have enough evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
 T-test on lot2, p-value = 0.04168, which is less than α 0.05, We have strong evidence to conclude that the true mean of all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-
+![Capture2](https://user-images.githubusercontent.com/38533045/137311213-f18ae87c-2008-4996-9f63-774a359418d0.JPG)
 
 
