@@ -56,11 +56,25 @@ T-test on lot3, p-value = 0.04168, which is less than α 0.05, We have strong ev
 ![Capture3](https://user-images.githubusercontent.com/38533045/137311290-8dfb977f-7316-4b04-aa5f-80ad24cad5e3.JPG)
 
 ## Study Design: MechaCar vs Competition
-what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+I have designed a statistical study in order to see how MechaCar vehicles perform against vehicles made by other maunfacturers. Potential metrics that consumers could find interesting in might include cost, city or highway fuel efficiency, horse power, maitenance cost, or safety rating.
+
+Metric Tested:
+Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics to aim to analyze how competitively MechaCars are priced to their competition.
+Safety Feature Rating: Independent Variable
+Current Price (Selling): Dependent Variable
+Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+Average Annual Cost of ownership (Maintenance): Independent Variable
+MPG (Gasoline Efficiency): Independent Variable
+ 
+ 
+
+Hypotheses
+Null Hypothesis: MechaCars have no difference in pricing compared to its competitors, and have no differences in fuel efficiency or horse power in comparison to competitors.
+Alternative Hypothesis: MechaCars have different pricing in comparison to competitors and have differences in fuel efficiency and horse power compared to the competition.
+Statistical Tests to be Performed
+In this study we will use a two sample t-test to compare the means from the two populations. From there we will perform one-tailed t-tests in order to determine which means are greater than or less than the other.
+
+Data Requirements
+In order to carry out this statistical test we will either need a collection of data from MechaCar and its competitors or (1) the mean of both samples, (2) the standard deviation of both samples, and (3) the number of observations.
 
 
