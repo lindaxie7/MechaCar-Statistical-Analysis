@@ -67,14 +67,14 @@ Collecting data for comparable models across all major manufacturers for past 3 
 - MPG (Gasoline Efficiency): Independent Variable
  
  
-Hypotheses
+Hypotheses:
 - Null Hypothesis: MechaCars have no difference in pricing compared to its competitors, and have no differences in fuel efficiency or horse power in comparison to competitors.
 - Alternative Hypothesis: MechaCars have different pricing in comparison to competitors and have differences in fuel efficiency and horse power compared to the competition.
 Statistical Tests to be Performed
 
 In this study we will use a two sample t-test to compare the means from the two populations. From there we will perform one-tailed t-tests in order to determine which means are greater than or less than the other.
 
-Data Requirements
+Data Requirements:
 In order to carry out this statistical test we will either need a collection of data from MechaCar and its competitors or (1) the mean of both samples, (2) the standard deviation of both samples, and (3) the number of observations.
 
 
