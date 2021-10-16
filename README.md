@@ -60,18 +60,18 @@ I have designed a statistical study in order to see how MechaCar vehicles perfor
 
 Metric Tested:
 Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics to aim to analyze how competitively MechaCars are priced to their competition.
-Safety Feature Rating: Independent Variable
-Current Price (Selling): Dependent Variable
-Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
-Average Annual Cost of ownership (Maintenance): Independent Variable
-MPG (Gasoline Efficiency): Independent Variable
+- Safety Feature Rating: Independent Variable
+- Current Price (Selling): Dependent Variable
+- Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+- Average Annual Cost of ownership (Maintenance): Independent Variable
+- MPG (Gasoline Efficiency): Independent Variable
  
  
-
 Hypotheses
-Null Hypothesis: MechaCars have no difference in pricing compared to its competitors, and have no differences in fuel efficiency or horse power in comparison to competitors.
-Alternative Hypothesis: MechaCars have different pricing in comparison to competitors and have differences in fuel efficiency and horse power compared to the competition.
+- Null Hypothesis: MechaCars have no difference in pricing compared to its competitors, and have no differences in fuel efficiency or horse power in comparison to competitors.
+- Alternative Hypothesis: MechaCars have different pricing in comparison to competitors and have differences in fuel efficiency and horse power compared to the competition.
 Statistical Tests to be Performed
+
 In this study we will use a two sample t-test to compare the means from the two populations. From there we will perform one-tailed t-tests in order to determine which means are greater than or less than the other.
 
 Data Requirements
